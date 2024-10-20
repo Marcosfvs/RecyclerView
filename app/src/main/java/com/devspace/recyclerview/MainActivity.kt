@@ -31,6 +31,12 @@ class MainActivity : AppCompatActivity() {
         ivList.setOnClickListener {
             rvList.layoutManager = LinearLayoutManager(this)
         }
+        
+        adapter.setOnclickListener { contact ->
+
+        }
+
+
     }
 
     private val contacts = listOf(
